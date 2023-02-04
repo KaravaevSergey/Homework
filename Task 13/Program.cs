@@ -4,12 +4,17 @@ Console.Clear();
 
 Console.WriteLine("Напишите любое число");
 int a = int.Parse(Console.ReadLine()!);
-int n = a % 10;
-if (n = a % 10)
+if (a < 100)
 {
-    Console.WriteLine($" {n} ");
+    Console.WriteLine("Такой цифры нет");
 }
-else
+while (a >= 100)
 {
-    Console.WriteLine("нет такой цифры");
+   if (a < 1000)
+   {
+    int b = a % 10;
+    Console.WriteLine($"Третья цифра в числе: {b}" );  
+   } 
+   a = a / 10;
 }
+   

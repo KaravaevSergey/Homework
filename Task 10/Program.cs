@@ -13,3 +13,13 @@ Console.WriteLine($" {a} ");
 int n = a / 10;
 int b = n %= 10;
 Console.WriteLine($"{b}");
+
+// int n = a % 10;
+// if (n = a % 10)
+// {
+//     Console.WriteLine($" {n} ");
+// }
+// else
+// {
+//     Console.WriteLine("нет такой цифры");
+// }
